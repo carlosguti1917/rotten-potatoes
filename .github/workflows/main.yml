@@ -41,5 +41,5 @@ jobs:
           push: true
           tags: |
             carlosrobertopinheiro/rotten-potatoes:latest
-            carlosrobertopinheiro/rotten-potatoes:${{ github.run.number }}
+            carlosrobertopinheiro/rotten-potatoes:${{github.run.number}}
           
