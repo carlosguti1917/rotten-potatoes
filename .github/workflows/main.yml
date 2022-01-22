@@ -41,4 +41,5 @@ jobs:
           push: true
           tags: |
             carlosrobertopinheiro/rotten-potatoes:latest
+            carlosrobertopinheiro/rotten-potatoes:v1
           
