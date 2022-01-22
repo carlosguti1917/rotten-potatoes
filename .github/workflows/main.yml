@@ -39,7 +39,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             carlosrobertopinheiro/rotten-potatoes:latest
             carlosrobertopinheiro/rotten-potatoes:${{ gethub.run.number }}
           
