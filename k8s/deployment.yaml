@@ -82,5 +82,5 @@ spec:
   - port: 80
     targetPort: 5000
     nodePort: 30000
-  type: NodePort
-
+  # type: NodePort   --> Esta linha era porque estavamos usando local na aula 2
+  type: LoadBalancer
